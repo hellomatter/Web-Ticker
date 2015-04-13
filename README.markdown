@@ -1,4 +1,12 @@
-#Web Ticker v2.1.1
+#Web Ticker v2.1.2
+
+Changes in this fork:
+
+ - Prevent item pop-in
+ - Some code tidy up
+ - Some minor optimisations
+ - Add private bower.json
+ - Version bump to 2.1.2
 
 ##How to use
 
@@ -115,6 +123,13 @@ If there is something you'd like to see feel free to add a bug report or feature
 <a href="http://flattr.com/thing/1357511/jQuery-Web-Ticker" target="_blank"><img src="http://api.flattr.com/button/flattr-badge-large.png" alt="Flattr this" title="Flattr this" border="0" /></a>
 
 ##Change Log
+
+2.1.2
+
+ - Prevent item pop-in
+ - Some code tidy up
+ - Some minor optimisations
+ - Add private bower.json
 
 2.1.1
 

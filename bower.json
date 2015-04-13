@@ -1,0 +1,13 @@
+{
+  "name": "Web-Ticker",
+  "version": "2.1.2",
+  "main": "jquery.webticker.js",
+  "ignore": [
+    "example",
+    "webticker.jquery.json"
+  ],
+  "dependencies": {
+    "jquery": ">=1.4.2"
+  },
+  "private": true
+}
