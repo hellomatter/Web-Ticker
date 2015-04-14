@@ -1,9 +1,9 @@
 /*!
- * webTicker 2.1.2
+ * webTicker 2.1.3
  * Examples and documentation at:
  * http://jonmifsud.com/open-source/jquery/jquery-webticker/
  * 2011 Jonathan Mifsud
- * Version: 2.1.2 (13-APRIL-2015)
+ * Version: 2.1.3 (15-APRIL-2015)
  * Dual licensed under the Creative Commons and DonationWare licenses:
  * http://creativecommons.org/licenses/by-nc/3.0/
  * https://github.com/jonmifsud/Web-Ticker/blob/master/licence.md
@@ -160,7 +160,7 @@
 
         var widthCompare = sumMapElements($strip.children('li'), getElementOuterWidth);
         if (widthCompare > $strip.width()) {
-            $strip.width(widthCompare);
+            $strip.width(widthCompare + 1); // Chrome bumps down to two lines if we don't add 1
         }
     }
 
